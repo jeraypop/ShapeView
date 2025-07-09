@@ -1,13 +1,13 @@
 # ShapeView
 
-[![](https://jitpack.io/v/lygttpod/ShapeView.svg)](https://jitpack.io/#lygttpod/ShapeView)
+[![](https://jitpack.io/v/jeraypop/ShapeView.svg)](https://jitpack.io/#jeraypop/ShapeView)
 [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ShapeView-green.svg?style=true)](https://github.com/lygttpod)
-[![](https://img.shields.io/github/stars/lygttpod/ShapeView.svg)](https://github.com/lygttpod/ShapeView/stargazers)
-[![](https://img.shields.io/github/forks/lygttpod/ShapeView.svg)](https://github.com/lygttpod/ShapeView/network)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ShapeView-green.svg?style=true)](https://github.com/jeraypop)
+[![](https://img.shields.io/github/stars/jeraypop/ShapeView.svg)](https://github.com/jeraypop/ShapeView/stargazers)
+[![](https://img.shields.io/github/forks/jeraypop/ShapeView.svg)](https://github.com/jeraypop/ShapeView/network)
 
 
-## 一、 [**Demo下载地址**](https://www.pgyer.com/fpCD)
+## 一、 [**Demo下载地址**](https://www.pgyer.com)
 
 
 ## 二、如何使用
@@ -25,12 +25,12 @@
 然后在dependencies添加:
 ```
         dependencies {
-            implementation 'com.github.lygttpod:ShapeView:VERSION_CODE'
+            implementation 'com.github.jeraypop:ShapeView:VERSION_CODE'
         }
 ```
 > ## 温馨提示：你的项目需要支持kotlin
 
-> ### 注意：VERSION_CODE为[![](https://jitpack.io/v/lygttpod/ShapeView.svg)](https://jitpack.io/#lygttpod/ShapeView)后面的数字，即最新的[release](https://github.com/lygttpod/ShapeView/releases)版本号
+> ### 注意：VERSION_CODE为[![](https://jitpack.io/v/jeraypop/ShapeView.svg)](https://jitpack.io/#jeraypop/ShapeView)后面的数字，即最新的[release](https://github.com/jeraypop/ShapeView/releases)版本号
 
 ### 2、项目中如何使用
 #### 2.1、布局中如何使用（示例中只列出部分属性，开发者可根据具体需求使用其他属性）
@@ -87,15 +87,15 @@ shapeGradientEndColor | color  | 渐变结束颜色 | 无
 shapeUseSelector | bool  | 是否使用selector | false
 shapeGradientType | enum  | linear | false
 
-# 三、[更新日志](https://github.com/lygttpod/ShapeView/releases)
+# 三、[更新日志](https://github.com/jeraypop/ShapeView/releases)
 
 # 四、意见反馈
 
-如果遇到问题或者好的建议，请反馈到：[issue](https://github.com/lygttpod/ShapeView/issues)、[lygttpod@163.com](mailto:lygttpod@163.com) 或者[lygttpod@gmail.com](mailto:lygttpod@gmail.com)
+如果遇到问题或者好的建议，请反馈到：[issue](https://github.com/jeraypop/ShapeView/issues)
 
 如果觉得对你有用的话，点一下右上的星星赞一下吧!
 
-## 代码是最好的老师，更多详细用法请查看 [demo](https://github.com/lygttpod/ShapeView/tree/master/app):feet:
+## 代码是最好的老师，更多详细用法请查看 [demo](https://github.com/jeraypop/ShapeView/tree/master/app):feet:
 
 
 # License
