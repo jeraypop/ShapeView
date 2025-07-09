@@ -1,0 +1,56 @@
+plugins {
+//    id 'com.android.application'
+//    id 'org.jetbrains.kotlin.android'
+
+    alias libs.plugins.android.application
+    alias libs.plugins.kotlin.android
+
+}
+
+android {
+    namespace 'com.android.shapeview'
+    compileSdk compile_sdk_version
+
+    defaultConfig {
+        applicationId "com.android.shapeview"
+        minSdk min_sdk_version
+        targetSdk compile_sdk_version
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlin {
+        jvmToolchain {
+            languageVersion.set(JavaLanguageVersion.of(17))
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation project(":shape")
+    implementation(libs.core.ktx)
+    implementation(libs.appcompat.appcompat)
+    implementation(libs.material)
+
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.junit)
+    implementation(libs.androidx.junit)
+    implementation(libs.androidx.espresso.core)
+
+
+}
